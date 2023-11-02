@@ -1,0 +1,23 @@
+baseURL = 'https://notepad.frnd.design'
+languageCode = 'en-us'
+publishDir = "public"
+staticDir = "static"
+uploadDir = "static/uploads"
+title = 'Notepad — notas sobre design de interfaces.'
+summaryLength = 30
+canonifyURLs = true
+relativeURLs = true
+
+[Author]
+    name = "Fernando Soares"
+
+[Params]
+    ghrepo = "https://github.com/frrrnd/notepad"
+    title = "Notepad - Fernando Soares"
+    description = "Notas sobre design de interfaces."
+
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true

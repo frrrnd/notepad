@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Breakpoints em mixin com Sass  / Notepad </title>
+	<base href="https://localhost:1313">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Breakpoints em mixin com Sass"/>
+	<meta property="og:title" content="Breakpoints em mixin com Sass  - Notepad ">
+	<meta property="og:description" content="Breakpoints em mixin com Sass">
+	<meta property="og:image" content=" https://localhost:1313images/meta-image.jpg">
+	<meta property="og:url" content="https://localhost:1313/posts/breakpoints-em-mixin-com-sass/">
+	<meta property="og:site_name" content="Notepad">
+	<meta name="twitter:card" content=" https://localhost:1313images/meta-image.jpg">
+	<meta name="twitter:image:alt" content="Breakpoints em mixin com Sass  — Notepad ">
+	<meta name="twitter:site" content="@frrrnd">
+	<meta name="theme-color" content="#101010">
+	<meta name="view-transition" content="same-origin">
+	<link rel="preload stylesheet" href="https://localhost:1313stylesheets/style.css" as="style">
+	<link rel="preload stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/tokyo-night-dark.min.css" as="style">
+	<link rel="shortcut icon" href="https://localhost:1313images/favicon.png" type="image/x-icon">
+	<link rel="apple-touch-icon" href="https://localhost:1313images/site-icon.png">
+	<link rel="mask-icon" href="https://localhost:1313images/site-icon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<div class="wrap">
+    <header class="header">
+        <a href="../../" title="Home">
+            <img src="https://localhost:1313images/notepad-logo.png" alt="Notepad by FRND">
+        </a>
+        <h1><strong>notepad.</strong> <span>notas sobre design de interfaces.</span></h1>
+    </header>
+
+<main class="main" role="main">
+
+		<article class="post__item">
+			<header class="post__header">
+				<h1>Breakpoints em mixin com Sass</h1>
+			</header>
+
+			<section class="post__content">
+				<p>Fazer sites responsivos não é uma tarefa fácil, a organização as vezes acaba sendo um inimigo para o desenvolvimento e a manutenção. Por isso, o desenvolvedor sempre procura um método ou técnica pra facilitar esses serviços. Trago aqui uma dica pra quem se perde em meio a media queries e ajustes responsivos.</p>
+<p>Criaremos 1 mixin com 3 condições em SASS para ser usado no elemento que for necessário: small para smartphones, medium para tablets, e large para computadores (os valores podem ser alterados como você achar melhor).</p>
+<p>Veja o mixin a seguir:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>@<span style="color:#66d9ef">mixin</span> <span style="color:#f92672">breakpoint</span><span style="color:#f92672">($</span><span style="color:#f92672">name</span><span style="color:#f92672">)</span> {
+</span></span><span style="display:flex;"><span>    @<span style="color:#66d9ef">if</span> <span style="color:#f92672">$</span><span style="color:#f92672">name</span> <span style="color:#f92672">==</span> <span style="color:#f92672">small</span> {
+</span></span><span style="display:flex;"><span>        @<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">767px</span><span style="color:#f92672">)</span> {
+</span></span><span style="display:flex;"><span>            @<span style="color:#66d9ef">content</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    @<span style="color:#66d9ef">else</span> <span style="color:#f92672">if</span> <span style="color:#f92672">$</span><span style="color:#f92672">name</span> <span style="color:#f92672">==</span> <span style="color:#f92672">medium</span> {
+</span></span><span style="display:flex;"><span>        @<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">1024px</span><span style="color:#f92672">)</span> {
+</span></span><span style="display:flex;"><span>            @<span style="color:#66d9ef">content</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    @<span style="color:#66d9ef">else</span> <span style="color:#f92672">if</span> <span style="color:#f92672">$</span><span style="color:#f92672">name</span> <span style="color:#f92672">==</span> <span style="color:#f92672">large</span> {
+</span></span><span style="display:flex;"><span>        @<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">min-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">1025px</span><span style="color:#f92672">)</span> {
+</span></span><span style="display:flex;"><span>            @<span style="color:#66d9ef">content</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Tá bem fácil de entender.</p>
+<p>“Mas como eu aplico esse mixin para os meus componentes?”</p>
+<p>A aplicação do mixin é simples:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">elemento</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">@include</span> <span style="color:#960050;background-color:#1e0010">breakpoint(small)</span> <span style="color:#960050;background-color:#1e0010">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    @<span style="color:#66d9ef">include</span> <span style="color:#f92672">breakpoint</span><span style="color:#f92672">(</span><span style="color:#f92672">medium</span><span style="color:#f92672">)</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">width</span><span style="color:#f92672">:</span> <span style="color:#f92672">80</span><span style="color:#f92672">%;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    @<span style="color:#66d9ef">include</span> <span style="color:#f92672">breakpoint</span><span style="color:#f92672">(</span><span style="color:#f92672">large</span><span style="color:#f92672">)</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">width</span><span style="color:#f92672">:</span> <span style="color:#f92672">50</span><span style="color:#f92672">%;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">}</span>
+</span></span></code></pre></div><p>Esse código será compilado para:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>    @<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">767px</span><span style="color:#f92672">)</span> { 
+</span></span><span style="display:flex;"><span>	   .<span style="color:#a6e22e">elemento</span> { 
+</span></span><span style="display:flex;"><span>	     <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>; 
+</span></span><span style="display:flex;"><span>	   } 
+</span></span><span style="display:flex;"><span>	} 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	@<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">1024px</span><span style="color:#f92672">)</span> { 
+</span></span><span style="display:flex;"><span>	   .<span style="color:#a6e22e">elemento</span> { 
+</span></span><span style="display:flex;"><span>	     <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">80</span><span style="color:#66d9ef">%</span>; 
+</span></span><span style="display:flex;"><span>	   } 
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	 
+</span></span><span style="display:flex;"><span>	@<span style="color:#66d9ef">media</span> <span style="color:#f92672">(</span><span style="color:#f92672">min-width</span><span style="color:#f92672">:</span> <span style="color:#f92672">1025px</span><span style="color:#f92672">)</span> { 
+</span></span><span style="display:flex;"><span>	   .<span style="color:#a6e22e">elemento</span> { 
+</span></span><span style="display:flex;"><span>	     <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">%</span>; 
+</span></span><span style="display:flex;"><span>	   } 
+</span></span><span style="display:flex;"><span>	} 
+</span></span></code></pre></div><p>Dependendo do seu layout, você não vai precisar aplicar as 3 condições para um elemento.</p>
+<p>Esse mixin facilita na hora de você fazer um ajuste, ele concentra os estilos do elemento em um lugar só e deixa tudo organizado. Ideal pra quem usa o Atomic Design como metodologia.</p>
+
+			</section>
+
+			<footer class="post__footer">
+				<time>24.03.2017 </time>
+			</footer>
+		</article>
+
+</main>
+
+<footer class="footer"><div class="nav-dock">
+    <ul>
+        <li>
+            <a title="Home" href="../../">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6525 22.4999H11.4405C7.99355 22.4999 6.27055 22.4999 5.09555 21.4879C3.92055 20.4759 3.67655 18.7829 3.18955 15.3949L2.91055 13.4579C2.53055 10.8209 2.34055 9.50194 2.88155 8.37494C3.42155 7.24794 4.57255 6.56194 6.87355 5.19194L8.25855 4.36694C10.3465 3.12194 11.3925 2.49994 12.5465 2.49994C13.7005 2.49994 14.7455 3.12194 16.8345 4.36694L18.2195 5.19194C20.5195 6.56194 21.6705 7.24794 22.2115 8.37494C22.7515 9.50194 22.5615 10.8209 22.1815 13.4579L21.9035 15.3949C21.4165 18.7829 21.1725 20.4759 19.9975 21.4879C18.8225 22.4999 17.0995 22.4999 13.6525 22.4999ZM8.94455 16.0529C9.06298 15.8932 9.24003 15.787 9.43674 15.7577C9.63346 15.7285 9.83375 15.7785 9.99355 15.8969C10.7215 16.4369 11.6005 16.7499 12.5465 16.7499C13.4925 16.7499 14.3715 16.4369 15.0995 15.8969C15.1787 15.8382 15.2686 15.7957 15.3641 15.7717C15.4597 15.7478 15.559 15.7429 15.6565 15.7573C15.754 15.7718 15.8476 15.8053 15.9321 15.8559C16.0166 15.9065 16.0903 15.9733 16.149 16.0524C16.2077 16.1316 16.2503 16.2215 16.2742 16.317C16.2982 16.4126 16.3031 16.5119 16.2887 16.6094C16.2742 16.7068 16.2407 16.8005 16.1901 16.885C16.1395 16.9695 16.0727 17.0432 15.9935 17.1019C14.9983 17.8461 13.7892 18.2487 12.5465 18.2499C11.3039 18.2487 10.0948 17.8461 9.09955 17.1019C8.93993 16.9834 8.83394 16.8062 8.80487 16.6095C8.77581 16.4128 8.82605 16.2126 8.94455 16.0529Z" fill="url(#paint0_linear_30_821)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_30_821" x1="12.5461" y1="2.49994" x2="12.5461" y2="22.4999" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#4E4E4E"/>
+                    <stop offset="1"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+        </li>
+
+        <li>
+            <a title="Sobre" href="../../sobre">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.22572 3.96412C2.76172 5.43012 2.76172 7.78612 2.76172 12.5001C2.76172 17.2141 2.76172 19.5711 4.22572 21.0351C5.69172 22.5001 8.04772 22.5001 12.7617 22.5001C17.4757 22.5001 19.8327 22.5001 21.2967 21.0351C22.7617 19.5721 22.7617 17.2141 22.7617 12.5001C22.7617 7.78612 22.7617 5.42912 21.2967 3.96412C19.8337 2.50012 17.4757 2.50012 12.7617 2.50012C8.04772 2.50012 5.69072 2.50012 4.22572 3.96412ZM15.7617 12.5001C16.3137 12.5001 16.7617 11.8281 16.7617 11.0001C16.7617 10.1721 16.3137 9.50012 15.7617 9.50012C15.2097 9.50012 14.7617 10.1721 14.7617 11.0001C14.7617 11.8281 15.2097 12.5001 15.7617 12.5001ZM10.7617 11.0001C10.7617 11.8281 10.3137 12.5001 9.76172 12.5001C9.20972 12.5001 8.76172 11.8281 8.76172 11.0001C8.76172 10.1721 9.20972 9.50012 9.76172 9.50012C10.3137 9.50012 10.7617 10.1721 10.7617 11.0001ZM9.15872 16.0531C9.21744 15.9739 9.2912 15.9071 9.37577 15.8565C9.46034 15.8058 9.55407 15.7723 9.65159 15.758C9.74911 15.7436 9.84851 15.7485 9.94411 15.7726C10.0397 15.7966 10.1296 15.8393 10.2087 15.8981C10.9367 16.4381 11.8157 16.7501 12.7617 16.7501C13.7077 16.7501 14.5867 16.4371 15.3147 15.8981C15.3936 15.8368 15.4839 15.7918 15.5804 15.7658C15.6769 15.7398 15.7776 15.7334 15.8766 15.7469C15.9756 15.7604 16.0709 15.7935 16.1569 15.8443C16.2429 15.8952 16.3179 15.9627 16.3775 16.0429C16.437 16.1231 16.48 16.2144 16.5038 16.3115C16.5275 16.4085 16.5317 16.5094 16.516 16.608C16.5003 16.7067 16.465 16.8012 16.4122 16.8861C16.3595 16.9709 16.2903 17.0444 16.2087 17.1021C15.2134 17.8462 14.0044 18.2489 12.7617 18.2501C11.519 18.2489 10.31 17.8462 9.31472 17.1021C9.15495 16.9837 9.04875 16.8066 9.0195 16.6099C8.99025 16.4132 9.04032 16.2129 9.15872 16.0531Z" fill="url(#paint0_linear_30_826)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_30_826" x1="12.7617" y1="2.50012" x2="12.7617" y2="22.5001" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#4E4E4E"/>
+                    <stop offset="1"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+        </li>
+
+        <li>
+            <a title="X" href="https://x.com/frrrnd" target="_blank">
+                <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.0667 0.499939H16.781L10.8509 7.27818L17.8276 16.5H12.3652L8.08728 10.9063L3.19131 16.5H0.475583L6.81866 9.2497L0.125977 0.500677H5.72706L9.59413 5.61349L14.0667 0.499939ZM13.1145 14.8759H14.6184L4.90984 2.03924H3.29604L13.1145 14.8759Z" fill="url(#paint0_linear_30_831)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_30_831" x1="8.97678" y1="0.499939" x2="8.97678" y2="16.5" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#4E4E4E"/>
+                    <stop offset="1"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+        </li>
+
+        <li>
+            <a title="Layers" href="https://layers.to/fer" target="_blank">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.17089 10.1849C3.18489 9.39094 2.19189 8.99394 2.19189 8.49994C2.19189 8.00594 3.18489 7.60994 5.17089 6.81494L7.97889 5.69194C9.96489 4.89694 10.9589 4.49994 12.1919 4.49994C13.4259 4.49994 14.4189 4.89694 16.4049 5.69194L19.2129 6.81494C21.1989 7.60894 22.1919 8.00594 22.1919 8.49994C22.1919 8.99394 21.1989 9.38994 19.2129 10.1849L16.4049 11.3079C14.4189 12.1039 13.4249 12.4999 12.1919 12.4999C10.9579 12.4999 9.96489 12.1029 7.97889 11.3089L5.17189 10.1839L5.17089 10.1849Z" fill="black"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.19189 8.49994C2.19189 8.99394 3.18489 9.38994 5.17089 10.1849L7.97889 11.3079C9.96489 12.1039 10.9589 12.4999 12.1919 12.4999C13.4259 12.4999 14.4189 12.1029 16.4049 11.3089L19.2129 10.1849C21.1989 9.39094 22.1919 8.99394 22.1919 8.49994C22.1919 8.00594 21.1989 7.60994 19.2129 6.81494L16.4049 5.69194C14.4189 4.89694 13.4249 4.49994 12.1919 4.49994C10.9579 4.49994 9.96489 4.89694 7.97889 5.69194L5.17189 6.81494C3.18489 7.60894 2.19189 8.00594 2.19189 8.49994Z" fill="url(#paint0_linear_30_835)"/>
+                    <path opacity="0.7" d="M5.95789 10.4999L5.17089 10.8149C3.18489 11.6089 2.19189 12.0069 2.19189 12.4999C2.19189 12.9929 3.18489 13.3899 5.17089 14.1849L7.97889 15.3079C9.96489 16.1039 10.9589 16.4999 12.1919 16.4999C13.4259 16.4999 14.4189 16.1029 16.4049 15.3089L19.2129 14.1849C21.1989 13.3909 22.1919 12.9929 22.1919 12.4999C22.1919 12.0069 21.1989 11.6099 19.2129 10.8149L18.4259 10.4999L16.4049 11.3089C14.4189 12.1029 13.4249 12.4999 12.1919 12.4999C10.9579 12.4999 9.96489 12.1029 7.97889 11.3089L5.95889 10.4999H5.95789Z" fill="black"/>
+                    <path opacity="0.4" d="M5.95789 14.4999L5.17089 14.8149C3.18489 15.6089 2.19189 16.0069 2.19189 16.4999C2.19189 16.9939 3.18489 17.3899 5.17089 18.1849L7.97889 19.3079C9.96489 20.1039 10.9589 20.4999 12.1919 20.4999C13.4259 20.4999 14.4189 20.1029 16.4049 19.3079L19.2129 18.1849C21.1989 17.3909 22.1919 16.9939 22.1919 16.4999C22.1919 16.0069 21.1989 15.6099 19.2129 14.8149L18.4259 14.4999L16.4049 15.3089C14.4189 16.1029 13.4249 16.4999 12.1919 16.4999C10.9579 16.4999 9.96489 16.1029 7.97889 15.3089L5.95889 14.4999H5.95789Z" fill="black"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_30_835" x1="12.1919" y1="4.49994" x2="12.1919" y2="12.4999" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#4E4E4E"/>
+                    <stop offset="1"/>
+                    </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://localhost:1313/js/app.js"></script>
+</div>

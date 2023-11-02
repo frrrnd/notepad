@@ -1,0 +1,18 @@
+{{ block "main" . }}
+
+<main class="main" role="main">
+    <section class="post__list">
+    {{ range (where .Site.Pages "Params.type" "post") }}
+        <article class="post__item">
+            <header class="post__header">
+                <a href="{{ .Permalink }}" title="{{ .Title }}">
+                    <h2>{{ .Title }}</h2>
+                    <time>{{ .Date.Format "02.01.2006" }}</time>
+                </a>
+            </header>
+        </article>
+    {{ end }}
+    </section>
+</main>
+
+{{ end }}
