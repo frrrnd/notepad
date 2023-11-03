@@ -160,6 +160,12 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    transition: .3s;
+}
+
+.post__header a:hover {
+    opacity: .5;
+    transition: .3s;
 }
 
 .post__header h1 {
