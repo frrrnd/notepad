@@ -151,10 +151,6 @@ body {
     padding: 16px 0;
 }
 
-.post__list .post__item:not(:last-child) {
-    border-bottom: 1px solid var(--divisor-color);
-}
-
 .post__header {
     width: 100%;
 }
