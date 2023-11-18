@@ -1,105 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notepad</title>
-    <link>https://localhost:1313/</link>
-    <description>Recent content on Notepad</description>
+    <title>Notepad — notas sobre design de interfaces.</title>
+    <link>https://notepad.frnd.design/</link>
+    <description>Recent content on Notepad — notas sobre design de interfaces.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jun 2023 17:31:52 -0300</lastBuildDate><atom:link href="https://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 17:31:52 -0300</lastBuildDate><atom:link href="https://notepad.frnd.design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>O Paradoxo da escolha</title>
-      <link>https://localhost:1313/posts/o-paradoxo-da-escolha/</link>
+      <link>https://notepad.frnd.design/o-paradoxo-da-escolha/</link>
       <pubDate>Fri, 30 Jun 2023 17:31:52 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/o-paradoxo-da-escolha/</guid>
+      <guid>https://notepad.frnd.design/o-paradoxo-da-escolha/</guid>
       <description>Vivemos acreditando que ter mais opções é sempre melhor, pois isso nos dá a sensação de controle sobre nossas vidas. No entanto, conforme o número de opções aumenta, um fenômeno peculiar começa a se manifestar - o paradoxo da escolha.</description>
     </item>
     
     <item>
       <title>O Design dos sites Japoneses</title>
-      <link>https://localhost:1313/posts/o-design-dos-sites-japoneses/</link>
+      <link>https://notepad.frnd.design/o-design-dos-sites-japoneses/</link>
       <pubDate>Mon, 12 Jun 2023 21:40:00 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/o-design-dos-sites-japoneses/</guid>
+      <guid>https://notepad.frnd.design/o-design-dos-sites-japoneses/</guid>
       <description>Veja aqui Na internet é comum encontrar uma variedade de estilos de design, cada um com suas características distintas feitos para serem uma experiência única. Um que chama bastante atenção é o estilo dos sites japoneses, muitas vezes parecendo ser bagunçado e mal organizado, lembrando até dos sites dos anos 90 aqui do ocidente.</description>
     </item>
     
     <item>
       <title>UX de sites</title>
-      <link>https://localhost:1313/posts/ux-de-sites/</link>
+      <link>https://notepad.frnd.design/ux-de-sites/</link>
       <pubDate>Mon, 13 Mar 2023 11:28:33 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/ux-de-sites/</guid>
+      <guid>https://notepad.frnd.design/ux-de-sites/</guid>
       <description>Alguns pontos sobre erros comuns em ux de sites e como melhorar.
 Erros comuns PowerPoint Layouts Sliders com imagem que ocupam a tela toda. Alguns podem achar criativo e divertido, mas na verdade tem várias complicações.</description>
     </item>
     
     <item>
       <title>Espaço negativo na tipografia</title>
-      <link>https://localhost:1313/posts/espaco-negativo-tipografia/</link>
+      <link>https://notepad.frnd.design/espaco-negativo-tipografia/</link>
       <pubDate>Wed, 08 Mar 2023 21:39:42 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/espaco-negativo-tipografia/</guid>
+      <guid>https://notepad.frnd.design/espaco-negativo-tipografia/</guid>
       <description>Espaço negativo na tipografia tem que ser feito com muita atenção. Os títulos são lidos sempre primeiros e geralmente são maiores em relação ao texto que acompanha.
 Na imagem abaixo, o título parece fazer parte igualmente dos dois parágrafos, o de cima e o de baixo.</description>
     </item>
     
     <item>
       <title>Card ou Lista</title>
-      <link>https://localhost:1313/posts/card-ou-lista/</link>
+      <link>https://notepad.frnd.design/card-ou-lista/</link>
       <pubDate>Wed, 01 Mar 2023 18:45:14 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/card-ou-lista/</guid>
+      <guid>https://notepad.frnd.design/card-ou-lista/</guid>
       <description>Tudo depende do contexto das informações.
 Cards (ou cartões) e listas são dois modos comuns de organizar informações em uma página. O uso de cada um vai da situação em que cada se encaixa pra uma melhor experiência.</description>
     </item>
     
     <item>
       <title>Como a memória funciona - para UX Designers</title>
-      <link>https://localhost:1313/posts/como-a-memoria-funciona-para-ux-designers/</link>
+      <link>https://notepad.frnd.design/como-a-memoria-funciona-para-ux-designers/</link>
       <pubDate>Fri, 17 Feb 2023 13:07:42 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/como-a-memoria-funciona-para-ux-designers/</guid>
+      <guid>https://notepad.frnd.design/como-a-memoria-funciona-para-ux-designers/</guid>
       <description>A memória humana é um dos mecanismos que determina a interação que uma pessoa tem com o mundo. Conhecendo como funciona a memória, designers conseguem criar interfaces mais centradas no ser humano e que correspondam as habilidades naturais do usuário, diminuindo esforço e aumentando a usabilidade.</description>
     </item>
     
     <item>
-      <title>Olá 2023!</title>
-      <link>https://localhost:1313/posts/ola-2023/</link>
-      <pubDate>Tue, 17 Jan 2023 19:48:04 -0300</pubDate>
-      
-      <guid>https://localhost:1313/posts/ola-2023/</guid>
-      <description>Vou fixar minha listinha de coisas que quero fazer/melhorar esse ano pra voltar aqui e rever mais vezes:
-ler e escrever mais praticar mais exercícios regular o sono (e manter regulado) trabalhar e estudar mais em coisas que gosto me organizar melhor Com a volta dos blogs pessoais, quero me dedicar a escrever mais aqui.</description>
-    </item>
-    
-    <item>
       <title>Psicologia aplicada em UX</title>
-      <link>https://localhost:1313/posts/psicologia-aplicada-em-ux/</link>
+      <link>https://notepad.frnd.design/psicologia-aplicada-em-ux/</link>
       <pubDate>Thu, 29 Dec 2022 19:50:43 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/psicologia-aplicada-em-ux/</guid>
+      <guid>https://notepad.frnd.design/psicologia-aplicada-em-ux/</guid>
       <description>A psicologia tem um papel muito importante no design da experiência do usuário.
 Como designers, podemos usar alguns princípios para influenciar (do jeito certo) o comportamento do usuário para que os produtos atinjam de forma efetiva os seus objetivos.</description>
     </item>
     
     <item>
       <title>Tipografia com PX, EM e REM</title>
-      <link>https://localhost:1313/posts/tipografia-com-px-em-rem/</link>
+      <link>https://notepad.frnd.design/tipografia-com-px-em-rem/</link>
       <pubDate>Tue, 29 Nov 2022 13:29:45 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/tipografia-com-px-em-rem/</guid>
+      <guid>https://notepad.frnd.design/tipografia-com-px-em-rem/</guid>
       <description>As unidades de medidas pra definir a tipografia em css podem ser classificadas em dois grupos: Relativas e Absolutas.
 O mais conhecido, sem dúvidas, é o px. Mas em um mundo onde temos vários dispositivos de tamanhos e telas diferentes, o ideal é não trabalhar com valores absolutos, ou seja, nossas medidas devem ser flexíveis pra funcionar da melhor forma possível em qualquer tamanho de tela.</description>
     </item>
     
     <item>
       <title>nth-of-type</title>
-      <link>https://localhost:1313/posts/nth-of-type/</link>
+      <link>https://notepad.frnd.design/nth-of-type/</link>
       <pubDate>Sun, 13 Nov 2022 21:06:19 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/nth-of-type/</guid>
+      <guid>https://notepad.frnd.design/nth-of-type/</guid>
       <description>nth-of-type é uma pseudo-classe que identifica os elementos baseados em sua posição entre irmãos do mesmo tipo. (nome da tag)
 Syntaxe :nth-of-type(&amp;lt;an + b&amp;gt; | even | odd)
 Exemplo &amp;lt;div&amp;gt; &amp;lt;div&amp;gt;Essa div não conta.</description>
@@ -107,19 +97,19 @@ Exemplo &amp;lt;div&amp;gt; &amp;lt;div&amp;gt;Essa div não conta.</description
     
     <item>
       <title>O básico do z-index</title>
-      <link>https://localhost:1313/posts/o-basico-do-z-index/</link>
+      <link>https://notepad.frnd.design/o-basico-do-z-index/</link>
       <pubDate>Sun, 17 Sep 2017 09:55:15 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/o-basico-do-z-index/</guid>
+      <guid>https://notepad.frnd.design/o-basico-do-z-index/</guid>
       <description>O z-index é a propriedade do CSS que define o posicionamento dos elementos no eixo Z, ou seja, ele define a distância do elemento em relação a tela, mais próximo ou mais afastado.</description>
     </item>
     
     <item>
       <title>Breakpoints em mixin com Sass</title>
-      <link>https://localhost:1313/posts/breakpoints-em-mixin-com-sass/</link>
+      <link>https://notepad.frnd.design/breakpoints-em-mixin-com-sass/</link>
       <pubDate>Fri, 24 Mar 2017 20:04:43 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/breakpoints-em-mixin-com-sass/</guid>
+      <guid>https://notepad.frnd.design/breakpoints-em-mixin-com-sass/</guid>
       <description>Fazer sites responsivos não é uma tarefa fácil, a organização as vezes acaba sendo um inimigo para o desenvolvimento e a manutenção. Por isso, o desenvolvedor sempre procura um método ou técnica pra facilitar esses serviços.</description>
     </item>
     

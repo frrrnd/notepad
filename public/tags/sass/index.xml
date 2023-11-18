@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sass on Notepad</title>
-    <link>https://localhost:1313/tags/sass/</link>
-    <description>Recent content in sass on Notepad</description>
+    <title>sass on Notepad — notas sobre design de interfaces.</title>
+    <link>https://notepad.frnd.design/tags/sass/</link>
+    <description>Recent content in sass on Notepad — notas sobre design de interfaces.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Mar 2017 20:04:43 -0300</lastBuildDate><atom:link href="https://localhost:1313/tags/sass/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Mar 2017 20:04:43 -0300</lastBuildDate><atom:link href="https://notepad.frnd.design/tags/sass/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Breakpoints em mixin com Sass</title>
-      <link>https://localhost:1313/posts/breakpoints-em-mixin-com-sass/</link>
+      <link>https://notepad.frnd.design/breakpoints-em-mixin-com-sass/</link>
       <pubDate>Fri, 24 Mar 2017 20:04:43 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/breakpoints-em-mixin-com-sass/</guid>
+      <guid>https://notepad.frnd.design/breakpoints-em-mixin-com-sass/</guid>
       <description>Fazer sites responsivos não é uma tarefa fácil, a organização as vezes acaba sendo um inimigo para o desenvolvimento e a manutenção. Por isso, o desenvolvedor sempre procura um método ou técnica pra facilitar esses serviços.</description>
     </item>
     

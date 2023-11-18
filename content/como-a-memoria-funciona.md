@@ -1,5 +1,5 @@
 ---
-title: "Como a memória funciona - para UX Designers"
+title: "Como a memória funciona"
 date: 2023-02-17T13:07:42-03:00
 draft: false
 type: "post"

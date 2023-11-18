@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>nth-of-type  / Notepad — notas sobre design de interfaces. </title>
+	<base href="https://notepad.frnd.design">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="nth-of-type"/>
+	<meta property="og:title" content="nth-of-type  - Notepad — notas sobre design de interfaces. ">
+	<meta property="og:description" content="nth-of-type">
+	<meta property="og:image" content="https://notepad.frnd.designimages/meta-image.png">
+	<meta property="og:url" content="https://notepad.frnd.design/nth-of-type/">
+	<meta property="og:site_name" content="Notepad — notas sobre design de interfaces.">
+	<meta name="twitter:card" content=" https://notepad.frnd.designimages/meta-image.jpg">
+	<meta name="twitter:image:alt" content="nth-of-type  — Notepad — notas sobre design de interfaces. ">
+	<meta name="twitter:site" content="@frrrnd">
+	<meta name="theme-color" content="#F7F7F7">
+	<meta name="view-transition" content="same-origin">
+	<link rel="preload stylesheet" href="https://notepad.frnd.designstylesheets/style.css" as="style">
+	<link rel="preload stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/tokyo-night-dark.min.css" as="style">
+	<link rel="shortcut icon" href="https://notepad.frnd.designimages/favicon-64.png" type="image/x-icon">
+	<link rel="apple-touch-icon" href="https://notepad.frnd.designimages/favicon-128.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap" rel="stylesheet">
+</head>
+
+<div class="wrap">
+    <header class="header" id="top">
+        
+        <h1><a href="https://notepad.frnd.design" title="Home">
+            notepad
+            </a></h1>
+            <h2><span>notas sobre design de interfaces.</span></h2>
+    </header>
+
+<main class="main single__item" role="main">
+
+		<article class="post__item">
+			<header class="post__header">
+				<h1>nth-of-type</h1>
+				<div class="post__meta">
+					<time>13.11.2022 </time>
+				</div>
+			</header>
+
+			<section class="post__content">
+				<p>nth-of-type é uma pseudo-classe que identifica os elementos baseados em sua posição entre <em>irmãos</em> do mesmo tipo. (nome da tag)</p>
+<h3 id="syntaxe">Syntaxe</h3>
+<p><code>:nth-of-type(&lt;an + b&gt; | even | odd)</code></p>
+<h3 id="exemplo">Exemplo</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span>&gt;Essa div não conta.&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">p</span>&gt;Primeiro paragrafo.&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;color&#34;</span>&gt;Segundo paragrafo.&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span>&gt;Essa não conta também.&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">p</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;color&#34;</span>&gt;Terceiro paragrafo.&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">p</span>&gt;Ultimo paragrafo.&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#75715e">/* Paragrafos ímpares */</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">p</span>:<span style="color:#a6e22e">nth-of-type</span><span style="color:#f92672">(</span><span style="color:#f92672">2n</span><span style="color:#f92672">+</span><span style="color:#f92672">1</span><span style="color:#f92672">)</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* Paragrafos pares */</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">p</span>:<span style="color:#a6e22e">nth-of-type</span><span style="color:#f92672">(</span><span style="color:#f92672">2n</span><span style="color:#f92672">)</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">blue</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* Primeiro paragrafo */</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">p</span>:<span style="color:#a6e22e">nth-of-type</span><span style="color:#f92672">(</span><span style="color:#f92672">1</span><span style="color:#f92672">)</span> { 
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* Esse pega o terceiro paragrafo combinando com os elementos em 2n+1 e
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">com a classe &#39;color&#39;.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">O segundo paragrafo tem a classe &#39;color&#39; mas não faz parte do 2n+1 */</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">p</span>.<span style="color:#a6e22e">color</span>:<span style="color:#a6e22e">nth-of-type</span><span style="color:#f92672">(</span><span style="color:#f92672">2n</span><span style="color:#f92672">+</span><span style="color:#f92672">1</span><span style="color:#f92672">)</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">text-decoration</span>: <span style="color:#66d9ef">underline</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Exemplo no <a href="https://codepen.io/frrrnd/pen/MWXoazw">codepen.</a></p>
+
+			</section>
+		</article>
+
+</main>
+
+<footer class="footer">
+    <a class="about-link" href="../colophon">Colophon</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    hljs.highlightAll();
+</script>
+</div>

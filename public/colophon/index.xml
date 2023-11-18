@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Colophon on Notepad — notas sobre design de interfaces.</title>
+    <link>https://notepad.frnd.design/colophon/</link>
+    <description>Recent content in Colophon on Notepad — notas sobre design de interfaces.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Mar 2019 22:19:15 -0300</lastBuildDate><atom:link href="https://notepad.frnd.design/colophon/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>css on Notepad</title>
-    <link>https://localhost:1313/tags/css/</link>
-    <description>Recent content in css on Notepad</description>
+    <title>css on Notepad — notas sobre design de interfaces.</title>
+    <link>https://notepad.frnd.design/tags/css/</link>
+    <description>Recent content in css on Notepad — notas sobre design de interfaces.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Nov 2022 13:29:45 -0300</lastBuildDate><atom:link href="https://localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 13:29:45 -0300</lastBuildDate><atom:link href="https://notepad.frnd.design/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tipografia com PX, EM e REM</title>
-      <link>https://localhost:1313/posts/tipografia-com-px-em-rem/</link>
+      <link>https://notepad.frnd.design/tipografia-com-px-em-rem/</link>
       <pubDate>Tue, 29 Nov 2022 13:29:45 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/tipografia-com-px-em-rem/</guid>
+      <guid>https://notepad.frnd.design/tipografia-com-px-em-rem/</guid>
       <description>As unidades de medidas pra definir a tipografia em css podem ser classificadas em dois grupos: Relativas e Absolutas.
 O mais conhecido, sem dúvidas, é o px. Mas em um mundo onde temos vários dispositivos de tamanhos e telas diferentes, o ideal é não trabalhar com valores absolutos, ou seja, nossas medidas devem ser flexíveis pra funcionar da melhor forma possível em qualquer tamanho de tela.</description>
     </item>
     
     <item>
       <title>nth-of-type</title>
-      <link>https://localhost:1313/posts/nth-of-type/</link>
+      <link>https://notepad.frnd.design/nth-of-type/</link>
       <pubDate>Sun, 13 Nov 2022 21:06:19 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/nth-of-type/</guid>
+      <guid>https://notepad.frnd.design/nth-of-type/</guid>
       <description>nth-of-type é uma pseudo-classe que identifica os elementos baseados em sua posição entre irmãos do mesmo tipo. (nome da tag)
 Syntaxe :nth-of-type(&amp;lt;an + b&amp;gt; | even | odd)
 Exemplo &amp;lt;div&amp;gt; &amp;lt;div&amp;gt;Essa div não conta.</description>
@@ -30,19 +30,19 @@ Exemplo &amp;lt;div&amp;gt; &amp;lt;div&amp;gt;Essa div não conta.</description
     
     <item>
       <title>O básico do z-index</title>
-      <link>https://localhost:1313/posts/o-basico-do-z-index/</link>
+      <link>https://notepad.frnd.design/o-basico-do-z-index/</link>
       <pubDate>Sun, 17 Sep 2017 09:55:15 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/o-basico-do-z-index/</guid>
+      <guid>https://notepad.frnd.design/o-basico-do-z-index/</guid>
       <description>O z-index é a propriedade do CSS que define o posicionamento dos elementos no eixo Z, ou seja, ele define a distância do elemento em relação a tela, mais próximo ou mais afastado.</description>
     </item>
     
     <item>
       <title>Breakpoints em mixin com Sass</title>
-      <link>https://localhost:1313/posts/breakpoints-em-mixin-com-sass/</link>
+      <link>https://notepad.frnd.design/breakpoints-em-mixin-com-sass/</link>
       <pubDate>Fri, 24 Mar 2017 20:04:43 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/breakpoints-em-mixin-com-sass/</guid>
+      <guid>https://notepad.frnd.design/breakpoints-em-mixin-com-sass/</guid>
       <description>Fazer sites responsivos não é uma tarefa fácil, a organização as vezes acaba sendo um inimigo para o desenvolvimento e a manutenção. Por isso, o desenvolvedor sempre procura um método ou técnica pra facilitar esses serviços.</description>
     </item>
     

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>memoria on Notepad</title>
-    <link>https://localhost:1313/tags/memoria/</link>
-    <description>Recent content in memoria on Notepad</description>
+    <title>memoria on Notepad — notas sobre design de interfaces.</title>
+    <link>https://notepad.frnd.design/tags/memoria/</link>
+    <description>Recent content in memoria on Notepad — notas sobre design de interfaces.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Feb 2023 13:07:42 -0300</lastBuildDate><atom:link href="https://localhost:1313/tags/memoria/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Feb 2023 13:07:42 -0300</lastBuildDate><atom:link href="https://notepad.frnd.design/tags/memoria/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como a memória funciona - para UX Designers</title>
-      <link>https://localhost:1313/posts/como-a-memoria-funciona-para-ux-designers/</link>
+      <link>https://notepad.frnd.design/como-a-memoria-funciona-para-ux-designers/</link>
       <pubDate>Fri, 17 Feb 2023 13:07:42 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/como-a-memoria-funciona-para-ux-designers/</guid>
+      <guid>https://notepad.frnd.design/como-a-memoria-funciona-para-ux-designers/</guid>
       <description>A memória humana é um dos mecanismos que determina a interação que uma pessoa tem com o mundo. Conhecendo como funciona a memória, designers conseguem criar interfaces mais centradas no ser humano e que correspondam as habilidades naturais do usuário, diminuindo esforço e aumentando a usabilidade.</description>
     </item>
     

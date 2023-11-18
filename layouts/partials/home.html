@@ -1,13 +1,15 @@
 {{ block "main" . }}
 
 <main class="main" role="main">
+
+    <a class="about-link" href="/colophon">Colophon</a>
+
     <section class="post__list">
     {{ range (where .Site.Pages "Params.type" "post") }}
         <article class="post__item">
             <header class="post__header">
                 <a href="{{ .Permalink }}" title="{{ .Title }}">
                     <h2>{{ .Title }}</h2>
-                    <div class="spacer"></div>
                     <time>{{ .Date.Format "02.01.2006" }}</time>
                 </a>
             </header>

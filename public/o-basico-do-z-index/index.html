@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>O básico do z-index  / Notepad — notas sobre design de interfaces. </title>
+	<base href="https://notepad.frnd.design">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="O básico do z-index"/>
+	<meta property="og:title" content="O básico do z-index  - Notepad — notas sobre design de interfaces. ">
+	<meta property="og:description" content="O básico do z-index">
+	<meta property="og:image" content="https://notepad.frnd.designimages/meta-image.png">
+	<meta property="og:url" content="https://notepad.frnd.design/o-basico-do-z-index/">
+	<meta property="og:site_name" content="Notepad — notas sobre design de interfaces.">
+	<meta name="twitter:card" content=" https://notepad.frnd.designimages/meta-image.jpg">
+	<meta name="twitter:image:alt" content="O básico do z-index  — Notepad — notas sobre design de interfaces. ">
+	<meta name="twitter:site" content="@frrrnd">
+	<meta name="theme-color" content="#F7F7F7">
+	<meta name="view-transition" content="same-origin">
+	<link rel="preload stylesheet" href="https://notepad.frnd.designstylesheets/style.css" as="style">
+	<link rel="preload stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/tokyo-night-dark.min.css" as="style">
+	<link rel="shortcut icon" href="https://notepad.frnd.designimages/favicon-64.png" type="image/x-icon">
+	<link rel="apple-touch-icon" href="https://notepad.frnd.designimages/favicon-128.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap" rel="stylesheet">
+</head>
+
+<div class="wrap">
+    <header class="header" id="top">
+        
+        <h1><a href="https://notepad.frnd.design" title="Home">
+            notepad
+            </a></h1>
+            <h2><span>notas sobre design de interfaces.</span></h2>
+    </header>
+
+<main class="main single__item" role="main">
+
+		<article class="post__item">
+			<header class="post__header">
+				<h1>O básico do z-index</h1>
+				<div class="post__meta">
+					<time>17.09.2017 </time>
+				</div>
+			</header>
+
+			<section class="post__content">
+				<!-- ![z-index](/uploads/z-index.svg#ilustra) -->
+<p>O z-index é a propriedade do CSS que define o posicionamento dos elementos no eixo Z, ou seja, ele define a distância do elemento em relação a tela, mais próximo ou mais afastado.</p>
+<p>Somente os elementos que contém position absolute, relative ou fixed aceitam o z-index. Quanto maior for o valor, mais próximo da tela ele ficará.</p>
+<p>Basicamente, não existem limitações para o valor do z-index. Mas a maioria dos browsers trabalha com os valores de 32 bits (− 2147483648 para + 2147483647). Sim, ele aceita valores negativos.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">box</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">box-2</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">box-3</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">3</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+			</section>
+		</article>
+
+</main>
+
+<footer class="footer">
+    <a class="about-link" href="../colophon">Colophon</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    hljs.highlightAll();
+</script>
+</div>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Tipografia com PX, EM e REM  / Notepad — notas sobre design de interfaces. </title>
+	<base href="https://notepad.frnd.design">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Tipografia com PX, EM e REM"/>
+	<meta property="og:title" content="Tipografia com PX, EM e REM  - Notepad — notas sobre design de interfaces. ">
+	<meta property="og:description" content="Tipografia com PX, EM e REM">
+	<meta property="og:image" content="https://notepad.frnd.designimages/meta-image.png">
+	<meta property="og:url" content="https://notepad.frnd.design/tipografia-com-px-em-rem/">
+	<meta property="og:site_name" content="Notepad — notas sobre design de interfaces.">
+	<meta name="twitter:card" content=" https://notepad.frnd.designimages/meta-image.jpg">
+	<meta name="twitter:image:alt" content="Tipografia com PX, EM e REM  — Notepad — notas sobre design de interfaces. ">
+	<meta name="twitter:site" content="@frrrnd">
+	<meta name="theme-color" content="#F7F7F7">
+	<meta name="view-transition" content="same-origin">
+	<link rel="preload stylesheet" href="https://notepad.frnd.designstylesheets/style.css" as="style">
+	<link rel="preload stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/tokyo-night-dark.min.css" as="style">
+	<link rel="shortcut icon" href="https://notepad.frnd.designimages/favicon-64.png" type="image/x-icon">
+	<link rel="apple-touch-icon" href="https://notepad.frnd.designimages/favicon-128.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap" rel="stylesheet">
+</head>
+
+<div class="wrap">
+    <header class="header" id="top">
+        
+        <h1><a href="https://notepad.frnd.design" title="Home">
+            notepad
+            </a></h1>
+            <h2><span>notas sobre design de interfaces.</span></h2>
+    </header>
+
+<main class="main single__item" role="main">
+
+		<article class="post__item">
+			<header class="post__header">
+				<h1>Tipografia com PX, EM e REM</h1>
+				<div class="post__meta">
+					<time>29.11.2022 </time>
+				</div>
+			</header>
+
+			<section class="post__content">
+				<p>As unidades de medidas pra definir a tipografia em css podem ser classificadas em dois grupos: <strong>Relativas</strong> e <strong>Absolutas</strong>.</p>
+<p>O mais conhecido, sem dúvidas, é o px. Mas em um mundo onde temos vários dispositivos de tamanhos e telas diferentes, o ideal é não trabalhar com valores absolutos, ou seja, nossas medidas devem ser flexíveis pra funcionar da melhor forma possível em qualquer tamanho de tela. Aí é onde entram as unidades relativas “em” e “rem”.</p>
+<h2 id="px">PX</h2>
+<p>Pixels são unidades fixas no documento. Não são relativas a nenhum outro elemento e não dependem de nenhuma outra unidade ou variação. Vai ser sempre do tamanho definido.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">heading</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">22</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Nesse caso, nosso <code>.heading</code> vai ter o font-size de 22px independente do tamanho da tela, do elemento pai ou do documento, já que está usando uma unidade <strong>absoluta</strong>.</p>
+<blockquote>
+<p>A maioria dos navegadores modernos têm como padrão 16px para o tamanho do font-size.</p>
+</blockquote>
+<h2 id="rem">REM</h2>
+<p>São as unidades relativas ao elemento raiz do documento html, que é a tag <code>&lt;html&gt;</code>.</p>
+<p>Sabendo que o valor padrão do nosso elemento raiz é 16px (se não for alterado), podemos trabalhar com a ideia de que 1rem = 16px.</p>
+<p>Nosso <code>.heading</code> ficaria assim:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">heading</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">rem</span> ; <span style="color:#75715e">/* 2 * 16px = 32px */</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* Outro valor */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">heading</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">1.5</span><span style="color:#66d9ef">rem</span>; <span style="color:#75715e">/* 1.5 * 16px = 24px */</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Pra não ter que ficar calculando os valores de REM toda hora, existe um hackzinho que facilita muito no uso dele.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">html</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">62.5</span><span style="color:#66d9ef">%</span>; <span style="color:#75715e">/* Muda o default de 16px pra 10px */</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">body</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">1.4</span><span style="color:#66d9ef">rem</span>; <span style="color:#75715e">/* 14px */</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h1</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">1.6</span><span style="color:#66d9ef">rem</span>; <span style="color:#75715e">/* 16px */</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Existem ferramentas pra ajudar na conversão, como essa <a target="_blank" href="https://nekocalc.com/px-to-rem-converter">calculadora</a> e até uma <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=sainoba.px-to-rem">extensão</a> para VS Code.</p>
+<h2 id="em">EM</h2>
+<p>Unidade também relativa, mas nesse caso, ao elemento <strong>pai</strong> e não ao elemento raíz.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">article</span>&gt;
+</span></span><span style="display:flex;"><span>	&lt;<span style="color:#f92672">h1</span>&gt;Heading&lt;/<span style="color:#f92672">h1</span>&gt; <span style="color:#75715e">&lt;!-- 2 * 28px = 56px --&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	&lt;<span style="color:#f92672">section</span>&gt;
+</span></span><span style="display:flex;"><span>		&lt;<span style="color:#f92672">h1</span>&gt;Subheading&lt;/<span style="color:#f92672">h1</span>&gt; <span style="color:#75715e">&lt;!-- 2 * 22px = 44px --&gt;</span>
+</span></span><span style="display:flex;"><span>	&lt;/<span style="color:#f92672">section</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">article</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">style</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* Elementos pais */</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">article</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">28</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">section</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">22</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/* Elemento filho */</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">h1</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">em</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">style</span>&gt;
+</span></span></code></pre></div><p>Se tivéssemos mais elementos agrupados um dentro do outro, o elemento filho segue o pai do level acima. Aqui fica mais confuso, por isso <strong>em</strong> é mais fácil de se perder.</p>
+<h2 id="acessibilidade">Acessibilidade</h2>
+<p>Se o usuário der zoom no navegador, os elementos com REM e PX continuarão do mesmo tamanho.</p>
+<p>Agora, se o usuário alterar as configurações do navegador e mudar o tamanho padrão dele de 16px pra qualquer outro valor, o elemento que for definido com REM começa com o padrão que o usuário definiu e irá mudar proporcionalmente conforme o zoom que ele der, e o elemento que estiver com px só irá mudar quando ele der o zoom.</p>
+<h2 id="concluindo">Concluindo</h2>
+<p>Use REM para interfaces escaláveis. REM e PX escalam o zoom da mesma forma, mas o REM se baseia nas preferências do usuário primeiro. Use EM somente quando um elemento deve ser escalado conforme o seu pai. REM é <strong>acessibilidade</strong>. <strong>✨</strong></p>
+
+			</section>
+		</article>
+
+</main>
+
+<footer class="footer">
+    <a class="about-link" href="../colophon">Colophon</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    hljs.highlightAll();
+</script>
+</div>

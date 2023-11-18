@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sites on Notepad</title>
-    <link>https://localhost:1313/tags/sites/</link>
-    <description>Recent content in sites on Notepad</description>
+    <title>sites on Notepad — notas sobre design de interfaces.</title>
+    <link>https://notepad.frnd.design/tags/sites/</link>
+    <description>Recent content in sites on Notepad — notas sobre design de interfaces.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jun 2023 21:40:00 -0300</lastBuildDate><atom:link href="https://localhost:1313/tags/sites/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jun 2023 21:40:00 -0300</lastBuildDate><atom:link href="https://notepad.frnd.design/tags/sites/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>O Design dos sites Japoneses</title>
-      <link>https://localhost:1313/posts/o-design-dos-sites-japoneses/</link>
+      <link>https://notepad.frnd.design/o-design-dos-sites-japoneses/</link>
       <pubDate>Mon, 12 Jun 2023 21:40:00 -0300</pubDate>
       
-      <guid>https://localhost:1313/posts/o-design-dos-sites-japoneses/</guid>
+      <guid>https://notepad.frnd.design/o-design-dos-sites-japoneses/</guid>
       <description>Veja aqui Na internet é comum encontrar uma variedade de estilos de design, cada um com suas características distintas feitos para serem uma experiência única. Um que chama bastante atenção é o estilo dos sites japoneses, muitas vezes parecendo ser bagunçado e mal organizado, lembrando até dos sites dos anos 90 aqui do ocidente.</description>
     </item>
     
