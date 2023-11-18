@@ -2,19 +2,15 @@
     <!-- {{- partial "nav-dock.html" . -}} -->
     <div class="footer-links">
         <ul>
-            {{ if .IsHome }} 
-            <li><a href="#top">↑ Topo</a></li>
-            {{ end }}
-
             {{ if not .IsHome }} 
-            <li><a href="/">← Voltar</a></li>
+            <li><a href="/">Início</a></li>
             {{ end }}
 
             <li><a href="/sobre">Sobre</a></li>
         </ul>
 
         <ul>
-            <li><a href="https://x.com/frrrnd" target="_blank">𝕏</a></li>
+            <li><a href="https://x.com/frrrnd" target="_blank">x.com</a></li>
             <li><a href="https://layers.to/fer" target="_blank">Layers</a></li>
         </ul>
     </div>

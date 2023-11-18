@@ -7,15 +7,14 @@
 		<article class="post__item">
 			<header class="post__header">
 				<h1>{{ .Title }}</h1>
+				<div class="post__meta">
+					<time>{{ .Date.Format "02.01.2006" }} </time>
+				</div>
 			</header>
 
 			<section class="post__content">
 				{{ .Content }}
 			</section>
-
-			<footer class="post__footer">
-				<time>{{ .Date.Format "02.01.2006" }} </time>
-			</footer>
 		</article>
 
 </main>
