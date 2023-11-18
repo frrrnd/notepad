@@ -192,6 +192,17 @@ body {
 
 .post__list {
     padding: 5vh 0;
+    transition: .4s;
+}
+
+.post__list:hover .post__header {
+    opacity: .6;
+    transition: .4s;
+}
+
+.post__list .post__header:hover {
+    opacity: 1!important;
+    transition: .4s;
 }
 
 .post__list .post__header {
@@ -206,13 +217,14 @@ body {
     font-size: 4.5rem;
 }
 
-.post__list .post__item {
-    padding: 16px 0;
-    margin: 32px 0;
+.post__list .post__item a {
+    padding: 48px 0;
+    display: block;
 }
 
 .post__header {
     width: 100%;
+    transition: .4s;
 }
 
 /* post single */
