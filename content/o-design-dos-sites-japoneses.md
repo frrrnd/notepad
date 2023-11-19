@@ -5,6 +5,7 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['ux', 'sites']
+featured_image: "/uploads/japoneses.png"
 ---
 
 ![z-index](/uploads/japoneses.png)

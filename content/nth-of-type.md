@@ -5,6 +5,7 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['css', 'nth-of-type', 'pseudo-class']
+featured_image: "/uploads/nth.png"
 ---
 
 ![z-index](/uploads/nth.png)

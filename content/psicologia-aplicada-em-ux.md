@@ -5,6 +5,7 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['psicologia', 'ux', 'design']
+featured_image: "/uploads/psicologia.png"
 ---
 
 ![z-index](/uploads/psicologia.png)

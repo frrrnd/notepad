@@ -5,6 +5,7 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['css', 'sass', 'responsivo']
+featured_image: "/uploads/breakpoints.png"
 ---
 
 ![z-index](/uploads/breakpoints.png)

@@ -5,6 +5,7 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['tipografia']
+featured_image: "/uploads/negativo.png"
 ---
 
 ![z-index](/uploads/negativo.png)
