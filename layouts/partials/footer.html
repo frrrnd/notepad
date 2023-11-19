@@ -22,13 +22,13 @@
     let themeIcon = document.querySelector('.theme-icon svg');
 
     if (localStorage.getItem("theme") == 'dark') {
-    root.classList.add("dark-theme");
-    metaColor.setAttribute("content", "#1c1c1c");
-    themeIcon.style.transform = "translateY(-32px)";
+        root.classList.add("dark-theme");
+        metaColor.setAttribute("content", "#1c1c1c");
+        themeIcon.style.transform = "translateY(-32px)";
     } else {
-    root.classList.add("light-theme");
-    metaColor.setAttribute("content", "#f2efee");
-    themeIcon.style.transform = "translateY(0)";
+        root.classList.add("light-theme");
+        metaColor.setAttribute("content", "#f2efee");
+        themeIcon.style.transform = "translateY(0)";
     }
 
     switcher.addEventListener("click", function () {
