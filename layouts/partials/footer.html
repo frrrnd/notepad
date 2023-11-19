@@ -35,14 +35,14 @@
     if (root.classList.contains('dark-theme')) {
         root.classList.remove("dark-theme");
         root.classList.add("light-theme");
-        metaColor.setAttribute("content", "#E8E9EC");
+        metaColor.setAttribute("content", "#f2efee");
         localStorage.setItem("theme", "light");
         themeIcon.style.transform = "translateY(0)";
     } else {
         root.classList.remove("light-theme");
         root.classList.add("dark-theme");
         localStorage.setItem("theme", "dark");
-        metaColor.setAttribute("content", "#161821");
+        metaColor.setAttribute("content", "#1c1c1c");
         themeIcon.style.transform = "translateY(-32px)";
     }
     });
