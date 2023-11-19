@@ -5,11 +5,18 @@
 }
 
 :root {
-    --background-color: #f2efee;
-    --primary-text-color: #2d2d2d;
-    --secondary-text-color: #919191;
-    --accent-color: #f21d74;
-    --divisor-color: #e3e3e3;
+    --light-background-color: #f2efee;
+    --light-primary-text-color: #2d2d2d;
+    --light-secondary-text-color: #919191;
+    --light-accent-color: #f21d74;
+    --light-divisor-color: #e3e3e3;
+
+    --dark-background-color: #1c1c1c;
+    --dark-primary-text-color: #f2efee;
+    --dark-secondary-text-color: #919191;
+    --dark-accent-color: #ff589c;
+    --dark-divisor-color: #272727;
+
     --wrap-width: 700px;
     --dock-space: 6px;
     --font-size-base: 1.6rem;
@@ -18,6 +25,43 @@
     --font-weight-base: 400;
     --font-weight-bold: 700;
 }
+
+@media (prefers-color-scheme: light) {
+    html {
+        --background-color: var(--light-background-color);
+        --primary-text-color: var(--light-primary-text-color);
+        --secondary-text-color: var(--light-secondary-text-color);
+        --accent-color: var(--light-accent-color);
+        --divisor-color: var(--light-divisor-color);
+    }
+
+    html.dark-theme {
+        --background-color: var(--dark-background-color);
+        --primary-text-color: var(--dark-primary-text-color);
+        --secondary-text-color: var(--dark-secondary-text-color);
+        --accent-color: var(--dark-accent-color);
+        --divisor-color: var(--dark-divisor-color);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        --background-color: var(--dark-background-color);
+        --primary-text-color: var(--dark-primary-text-color);
+        --secondary-text-color: var(--dark-secondary-text-color);
+        --accent-color: var(--dark-accent-color);
+        --divisor-color: var(--dark-divisor-color);
+    }
+
+    html.light-theme {
+        --background-color: var(--light-background-color);
+        --primary-text-color: var(--light-primary-text-color);
+        --secondary-text-color: var(--light-secondary-text-color);
+        --accent-color: var(--light-accent-color);
+        --divisor-color: var(--light-divisor-color);
+    }
+}
+
 
 html {
     box-sizing: border-box;
@@ -193,6 +237,7 @@ body {
 .post__list {
     padding: 5vh 0;
     transition: .4s;
+    animation: toUp .4s ease forwards;
 }
 
 .post__list:hover .post__header {
@@ -345,4 +390,24 @@ pre code.hljs {
 @keyframes toUp {
     0% { transform: translateY(30px); opacity: 0; }
     100% { transform: translateY(0); opacity: 1; }
+}
+
+.sw {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.theme-icon {
+    overflow: hidden;
+    display: block;
+    height: 32px;
+}
+
+.theme-icon svg {
+    transition: .4s;
 }
