@@ -7,6 +7,8 @@ layout: "post"
 tags: ['memoria', 'ux']
 ---
 
+![z-index](/uploads/memoria.png)
+
 A memória humana é um dos mecanismos que determina a interação que uma pessoa tem com o mundo. Conhecendo como funciona a memória, designers conseguem criar interfaces mais centradas no ser humano e que correspondam as habilidades naturais do usuário, diminuindo esforço e aumentando a usabilidade. 
 
 ## O Básico

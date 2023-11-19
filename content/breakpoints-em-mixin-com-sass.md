@@ -1,11 +1,14 @@
 ---
-title: "Breakpoints em mixin com Sass"
+title: "Breakpoints em mixin com SASS"
 date: 2017-03-24T20:04:43-03:00
 draft: false
 type: "post"
 layout: "post"
 tags: ['css', 'sass', 'responsivo']
 ---
+
+![z-index](/uploads/breakpoints.png)
+
 Fazer sites responsivos não é uma tarefa fácil, a organização as vezes acaba sendo um inimigo para o desenvolvimento e a manutenção. Por isso, o desenvolvedor sempre procura um método ou técnica pra facilitar esses serviços. Trago aqui uma dica pra quem se perde em meio a media queries e ajustes responsivos.
 
 Criaremos 1 mixin com 3 condições em SASS para ser usado no elemento que for necessário: small para smartphones, medium para tablets, e large para computadores (os valores podem ser alterados como você achar melhor).

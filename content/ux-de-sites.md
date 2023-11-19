@@ -7,6 +7,8 @@ layout: "post"
 tags: ['layout', 'site', 'ux']
 ---
 
+![z-index](/uploads/sites.png)
+
 Alguns pontos sobre erros comuns em ux de sites e como melhorar.
 
 ## Erros comuns

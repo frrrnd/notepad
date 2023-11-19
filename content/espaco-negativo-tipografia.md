@@ -7,6 +7,8 @@ layout: "post"
 tags: ['tipografia']
 ---
 
+![z-index](/uploads/negativo.png)
+
 Espaço negativo na tipografia tem que ser feito com muita atenção.
 Os títulos são lidos sempre primeiros e geralmente são maiores em relação ao texto que acompanha.
 

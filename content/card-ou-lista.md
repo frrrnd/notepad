@@ -7,6 +7,8 @@ layout: "post"
 tags: ['design', 'layout']
 ---
 
+![z-index](/uploads/card-lista.png)
+
 Tudo depende do contexto das informações.
 
 Cards (ou cartões) e listas são dois modos comuns de organizar informações em uma página. O uso de cada um vai da situação em que cada se encaixa pra uma melhor experiência. O papel do designer é entender a situação pra usar da melhor forma.

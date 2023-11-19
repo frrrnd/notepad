@@ -7,6 +7,8 @@ layout: "post"
 tags: ['css', 'nth-of-type', 'pseudo-class']
 ---
 
+![z-index](/uploads/nth.png)
+
 nth-of-type é uma pseudo-classe que identifica os elementos baseados em sua posição entre *irmãos* do mesmo tipo. (nome da tag)
 
 ### Syntaxe

@@ -5,6 +5,8 @@ draft: false
 type: "post"
 ---
 
+![z-index](/uploads/news.png)
+
 Uma lista de newsletters que eu assino sobre design e produto para me manter atualizado.
 
 

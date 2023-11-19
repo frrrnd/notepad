@@ -7,6 +7,8 @@ layout: "post"
 tags: ['psicologia', 'ux', 'design']
 ---
 
+![z-index](/uploads/psicologia.png)
+
 A psicologia tem um papel muito importante no design da experiência do usuário.
 
 Como designers, podemos usar alguns princípios para influenciar **(do jeito certo)** o comportamento do usuário para que os produtos atinjam de forma efetiva os seus objetivos.

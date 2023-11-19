@@ -7,6 +7,8 @@ layout: "post"
 tags: ['css', 'tipografia']
 ---
 
+![z-index](/uploads/typefaces.png)
+
 As unidades de medidas pra definir a tipografia em css podem ser classificadas em dois grupos: **Relativas** e **Absolutas**.
 
 O mais conhecido, sem dúvidas, é o px. Mas em um mundo onde temos vários dispositivos de tamanhos e telas diferentes, o ideal é não trabalhar com valores absolutos, ou seja, nossas medidas devem ser flexíveis pra funcionar da melhor forma possível em qualquer tamanho de tela. Aí é onde entram as unidades relativas “em” e “rem”.
