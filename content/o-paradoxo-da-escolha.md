@@ -10,7 +10,7 @@ featured_image: "/uploads/escolha.png"
 
 ![z-index](/uploads/escolha.png)
 
-Vivemos acreditando que ter mais opções é sempre melhor, pois isso nos dá a sensação de controle sobre nossas vidas. No entanto, conforme o número de opções aumenta, um fenômeno peculiar começa a se manifestar - o paradoxo da escolha. 
+Vivemos acreditando que ter mais opções é sempre melhor, pois isso nos dá a sensação de controle sobre nossas vidas. No entanto, conforme o número de opções aumenta, um fenômeno peculiar começa a se manifestar - o paradoxo da escolha.
 
 O paradoxo da escolha foi inicialmente proposto pelo psicólogo <a target="_blank" href="https://en.wikipedia.org/wiki/Barry_Schwartz_(psychologist)">Barry Schwartz</a> em seu livro <a target="_blank" href="https://www.amazon.com.br/Paradoxo-Escolha-Barry-Schwartz/dp/8577190196">O Paradoxo da Escolha: Por que Mais é Menos</a>. Ele aborda que a abundância de opções possa parecer vantajosa, na realidade, isso pode nos deixar mais insatisfeitos e ansiosos. Quando temos um número grande de escolhas, sentimos uma pressão cada vez maior para tomar a decisão "certa". Essa pressão pode resultar em paralisia de análise, ansiedade e até mesmo arrependimento após a escolha ser feita.
 
