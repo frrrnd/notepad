@@ -6,26 +6,28 @@
 	<base href="{{ .Site.BaseURL }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="{{if .Description}}{{ .Description }}{{else}}{{.Title | default .Params.Title}}{{end}}"/>
+	
 	<meta property="og:title" content="{{ .Title | default .Site.Title}} {{ if not .IsHome }} - {{ .Site.Title }} {{ end }}">
 	<meta property="og:description" content="{{if .Description}}{{ .Description }}{{else}}{{.Title | default .Params.Title}}{{end}}">
 	<meta property="og:image" content="{{ if .Params.featured_image }} {{ .Site.BaseURL }}{{ .Params.featured_image }} {{else}} {{ .Site.BaseURL }}images/meta-image.png{{end}}">
 	<meta property="og:url" content="{{ .Permalink }}">
 	<meta property="og:site_name" content="{{ .Site.Title }}">
-	<meta name="twitter:card" content="{{ if .Params.featured_image }} {{ .Site.BaseURL }}{{ .Params.featured_image }} {{else}} {{ .Site.BaseURL }}images/meta-image.png{{end}}">
-	<meta name="twitter:image:alt" content="{{ .Title | default .Site.Title}} {{ if not .IsHome }} — {{ .Site.Title }} {{ end }}">
+	
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="{{ .Title | default .Site.Title}} {{ if not .IsHome }} — {{ .Site.Title }} {{ end }}">
+	<meta name="twitter:image" content="{{ if .Params.featured_image }} {{ .Site.BaseURL }}{{ .Params.featured_image }} {{else}} {{ .Site.BaseURL }}images/meta-image.png{{end}}">
 	<meta name="twitter:site" content="@frrrnd">
+	
 	<meta name="theme-color" content="#f2efee">
 	<meta name="view-transition" content="same-origin">
 	<link rel="preload stylesheet" href="{{ .Site.BaseURL }}stylesheets/style.css" as="style">
 	<link rel="preload stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/tokyo-night-dark.min.css" as="style">
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon-64.png" type="image/x-icon">
 	<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}images/favicon-128.png">
+	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
 	<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
-
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-
 	<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&display=swap" rel="stylesheet">
 </head>
