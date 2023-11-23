@@ -5,7 +5,7 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['design', 'layout']
-featured_image: "/uploads/card-lista.png"
+featured_image: "uploads/card-lista.png"
 ---
 
 ![z-index](/uploads/card-lista.png)

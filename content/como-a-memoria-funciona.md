@@ -5,7 +5,7 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['memoria', 'ux']
-featured_image: "/uploads/memoria.png"
+featured_image: "uploads/memoria.png"
 ---
 
 ![z-index](/uploads/memoria.png)

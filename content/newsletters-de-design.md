@@ -3,7 +3,7 @@ title: "Newsletters de Design"
 date: 2023-11-18T09:53:22-03:00
 draft: false
 type: "post"
-featured_image: "/uploads/news.png"
+featured_image: "uploads/news.png"
 ---
 
 ![z-index](/uploads/news.png)

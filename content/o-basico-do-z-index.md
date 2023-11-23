@@ -5,7 +5,7 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['css', 'z-index']
-featured_image: "/uploads/z-index.png"
+featured_image: "uploads/z-index.png"
 ---
 
 ![z-index](/uploads/z-index.png)

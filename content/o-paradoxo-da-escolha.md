@@ -5,7 +5,7 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['ux', 'escolhas', 'hicks law']
-featured_image: "/uploads/escolha.png"
+featured_image: "uploads/escolha.png"
 ---
 
 ![z-index](/uploads/escolha.png)

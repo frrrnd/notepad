@@ -5,7 +5,7 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['dark mode', 'light mode']
-featured_image: "/uploads/dark-light.png"
+featured_image: "uploads/dark-light.png"
 ---
 
 ![Modo Claro e Modo Escuro](/uploads/dark-light.png)
