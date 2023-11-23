@@ -296,6 +296,10 @@ body {
     margin-bottom: 32px;
 }
 
+.post__content li {
+    margin-bottom: 12px;
+}
+
 .post__content p:last-child {
     margin-bottom: 16px;
 }
