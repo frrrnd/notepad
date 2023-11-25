@@ -2,7 +2,7 @@
 
 <main class="main" role="main">
 
-    <a class="about-link" href="/colophon">Colophon</a>
+    <a class="about-link" href="{{ .Site.BaseURL}}colophon">Colophon</a>
 
     <section class="post__list">
     {{ range (where .Site.Pages "Params.type" "post") }}

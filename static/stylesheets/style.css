@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "Inter", sans-serif;
+    src:
+        local("Inter"),
+        url("../fonts/Inter-VariableFont_slnt\,wght.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Instrument Serif", serif;
+    src:
+        local("Instrument Serif"),
+        url("../fonts/InstrumentSerif-Regular.ttf") format('truetype');
+}
+
 *,
 *:before,
 *:after {

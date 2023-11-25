@@ -1,5 +1,5 @@
 <footer class="footer">
-    <a class="about-link" href="/colophon">Colophon</a>
+    <a class="about-link" href="{{ .Site.BaseURL}}colophon">Colophon</a>
     <button class="sw">
         <i class="theme-icon" role="button" title="Tema">
             <svg width="32" height="64" viewBox="0 0 32 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -10,7 +10,7 @@
     </button>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="{{ .Site.BaseURL }}javascript/highlight.min.js"></script>
 <script>
     hljs.highlightAll();
 
