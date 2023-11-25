@@ -16,7 +16,7 @@
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:url" content="{{ .Permalink }}">
 	<meta property="twitter:title" content="{{ .Title | default .Site.Title}} {{ if not .IsHome }} — {{ .Site.Title }} {{ end }}">
-	<meta property="twitter:image" content="{{ if .Params.featured_image }} {{ .Site.BaseURL }}{{ .Params.featured_image }} {{else}} {{ .Site.BaseURL }}images/meta-image.png{{end}}">
+	<meta property="twitter:image" content="{{ if .Params.featured_image }}{{ .Site.BaseURL }}{{ .Params.featured_image }}{{else}}{{ .Site.BaseURL }}images/meta-image.png{{end}}">
 	<meta property="twitter:site" content="@frrrnd">
 	
 	<meta name="theme-color" content="#f2efee">
