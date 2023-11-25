@@ -5,10 +5,12 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['dark mode', 'light mode']
-featured_image: "uploads/dark-light.png"
+featured_image: "uploads/dark-light.webp"
 ---
 
-![Modo Claro e Modo Escuro](/uploads/dark-light.png)
+<figure>
+<img src="/uploads/dark-light.webp" alt="Modo Claro e Modo Escuro" width="700" height="500">
+</figure>
 
 Além de diferenças visuais, interfaces em modo claro ou escuro tem diferenças na legibilidade e podem ser definidas pela preferência pessoal. Assim, cada modo tem suas vantagens específicas que podem se adequar em diferentes situações e preferências. A escolha delas deve levar em consideração o contexto de uso.
 

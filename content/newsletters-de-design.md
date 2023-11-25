@@ -3,10 +3,12 @@ title: "Newsletters de Design"
 date: 2023-11-18T09:53:22-03:00
 draft: false
 type: "post"
-featured_image: "uploads/news.png"
+featured_image: "uploads/news.webp"
 ---
 
-![z-index](/uploads/news.png)
+<figure>
+<img src="/uploads/news.webp" alt="Newsletters de Design" width="700" height="500">
+</figure>
 
 Uma lista de newsletters que eu assino sobre design e produto para me manter atualizado.
 

@@ -5,10 +5,12 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['memoria', 'ux']
-featured_image: "uploads/memoria.png"
+featured_image: "uploads/memoria.webp"
 ---
 
-![z-index](/uploads/memoria.png)
+<figure>
+<img src="/uploads/memoria.webp" alt="Como a memória funciona" width="700" height="500">
+</figure>
 
 A memória humana é um dos mecanismos que determina a interação que uma pessoa tem com o mundo. Conhecendo como funciona a memória, designers conseguem criar interfaces mais centradas no ser humano e que correspondam as habilidades naturais do usuário, diminuindo esforço e aumentando a usabilidade. 
 

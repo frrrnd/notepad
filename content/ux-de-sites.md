@@ -5,10 +5,12 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['layout', 'site', 'ux']
-featured_image: "uploads/sites.png"
+featured_image: "uploads/sites.webp"
 ---
 
-![z-index](/uploads/sites.png)
+<figure>
+<img src="/uploads/sites.webp" alt="UX de sites" width="700" height="500">
+</figure>
 
 Alguns pontos sobre erros comuns em ux de sites e como melhorar.
 

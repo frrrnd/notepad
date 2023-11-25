@@ -5,10 +5,12 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['psicologia', 'ux', 'design']
-featured_image: "uploads/psicologia.png"
+featured_image: "uploads/psicologia.webp"
 ---
 
-![z-index](/uploads/psicologia.png)
+<figure>
+<img src="/uploads/psicologia.webp" alt="Psicologia aplicada em UX" width="700" height="500">
+</figure>
 
 A psicologia tem um papel muito importante no design da experiência do usuário.
 

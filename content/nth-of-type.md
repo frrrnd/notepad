@@ -5,10 +5,12 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['css', 'nth-of-type', 'pseudo-class']
-featured_image: "uploads/nth.png"
+featured_image: "uploads/nth.webp"
 ---
 
-![z-index](/uploads/nth.png)
+<figure>
+<img src="/uploads/nth.webp" alt="nth-of-type" width="700" height="500">
+</figure>
 
 nth-of-type é uma pseudo-classe que identifica os elementos baseados em sua posição entre *irmãos* do mesmo tipo. (nome da tag)
 

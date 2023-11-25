@@ -5,10 +5,12 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['css', 'sass', 'responsivo']
-featured_image: "uploads/breakpoints.png"
+featured_image: "uploads/breakpoints.webp"
 ---
 
-![z-index](/uploads/breakpoints.png)
+<figure>
+<img src="/uploads/breakpoints.webp" alt="Breakpoints em mixin com SASS" width="700" height="500">
+</figure>
 
 Fazer sites responsivos não é uma tarefa fácil, a organização as vezes acaba sendo um inimigo para o desenvolvimento e a manutenção. Por isso, o desenvolvedor sempre procura um método ou técnica pra facilitar esses serviços. Trago aqui uma dica pra quem se perde em meio a media queries e ajustes responsivos.
 

@@ -5,10 +5,12 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['tipografia']
-featured_image: "uploads/negativo.png"
+featured_image: "uploads/negativo.webp"
 ---
 
-![z-index](/uploads/negativo.png)
+<figure>
+<img src="/uploads/negativo.webp" alt="Espaço negativo na tipografia" width="700" height="500">
+</figure>
 
 Espaço negativo na tipografia tem que ser feito com muita atenção.
 Os títulos são lidos sempre primeiros e geralmente são maiores em relação ao texto que acompanha.

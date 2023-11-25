@@ -5,10 +5,12 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['css', 'tipografia']
-featured_image: "uploads/typefaces.png"
+featured_image: "uploads/typefaces.webp"
 ---
 
-![z-index](/uploads/typefaces.png)
+<figure>
+<img src="/uploads/typefaces.webp" alt="Tipografia com PX, EM e REM" width="700" height="500">
+</figure>
 
 As unidades de medidas pra definir a tipografia em css podem ser classificadas em dois grupos: **Relativas** e **Absolutas**.
 

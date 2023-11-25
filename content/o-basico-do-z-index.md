@@ -5,11 +5,12 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['css', 'z-index']
-featured_image: "uploads/z-index.png"
+featured_image: "uploads/z-index.webp"
 ---
 
-![z-index](/uploads/z-index.png)
-
+<figure>
+<img src="/uploads/z-index.webp" alt="O básico do z-index" width="700" height="500">
+</figure>
 
 O z-index é a propriedade do CSS que define o posicionamento dos elementos no eixo Z, ou seja, ele define a distância do elemento em relação a tela, mais próximo ou mais afastado.
 

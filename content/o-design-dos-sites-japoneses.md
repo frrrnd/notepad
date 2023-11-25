@@ -5,11 +5,12 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['ux', 'sites']
-featured_image: "uploads/japoneses.png"
+featured_image: "uploads/japoneses.webp"
 ---
 
-![z-index](/uploads/japoneses.png)
-
+<figure>
+<img src="/uploads/japoneses.webp" alt="O Design dos sites Japoneses" width="700" height="500">
+</figure>
 
 Na internet é comum encontrar uma variedade de estilos de design, cada um com suas características distintas feitos para serem uma experiência única. Um que chama bastante atenção é o estilo dos sites japoneses, muitas vezes parecendo ser bagunçado e mal organizado, lembrando até dos sites dos anos 90 aqui do ocidente. Mas existem alguns motivos para esse estilo ser tão único.
 

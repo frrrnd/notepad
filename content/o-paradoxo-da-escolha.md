@@ -5,10 +5,12 @@ draft: false
 type: "post"
 layout: "post"
 tags: ['ux', 'escolhas', 'hicks law']
-featured_image: "uploads/escolha.png"
+featured_image: "uploads/escolha.webp"
 ---
 
-![z-index](/uploads/escolha.png)
+<figure>
+<img src="/uploads/escolha.webp" alt="O Paradoxo da escolha" width="700" height="500">
+</figure>
 
 Vivemos acreditando que ter mais opções é sempre melhor, pois isso nos dá a sensação de controle sobre nossas vidas. No entanto, conforme o número de opções aumenta, um fenômeno peculiar começa a se manifestar - o paradoxo da escolha.
 
