@@ -1,15 +1,11 @@
 @font-face {
-    font-family: "Inter", sans-serif;
-    src:
-        local("Inter"),
-        url("../fonts/Inter-VariableFont_slnt\,wght.ttf") format('truetype');
+    font-family: "Inter";
+    src: url("../fonts/Inter-VariableFont_slnt,wght.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: "Instrument Serif", serif;
-    src:
-        local("Instrument Serif"),
-        url("../fonts/InstrumentSerif-Regular.ttf") format('truetype');
+    font-family: "Instrument Serif";
+    src: url("../fonts/InstrumentSerif-Regular.ttf") format('truetype');
 }
 
 *,
@@ -35,7 +31,7 @@
     --dock-space: 6px;
     --font-size-base: 1.6rem;
     --font-family-sans: 'Inter', sans-serif;
-    --font-family-serif: 'Instrument Serif', sans-serif;
+    --font-family-serif: 'Instrument Serif', serif;
     --font-weight-base: 400;
     --font-weight-bold: 700;
 }
