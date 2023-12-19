@@ -1,5 +1,5 @@
 ---
-title: "Backdrop Filter Blur e Blur"
+title: "Backdrop Filter Blur e Filter Blur"
 date: 2023-12-19T10:50:32-03:00
 draft: false
 type: "post"
